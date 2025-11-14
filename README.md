@@ -4,34 +4,45 @@ This is an application that enables one to vitually paint in the air using their
 
 ![Alt text](paint.gif)
 
-## Getting Started
+## ✨ Features
 
-- Use the command to clone this repository to your machine
-`git clone https://github.com/darthdaenerys/Virtual-Painter`
+  * **Virtual Brush:** Draw on the canvas using the tip of your right index finger.
+  * **Gesture-Based Mode Control:** Instantly switch between `Draw` and `Standby` modes using your left hand. A **closed fist** activates drawing, while an **open hand** allows for selection and navigation.
+  * **AI Shape Correction:** Automatically detect and perfect your hand-drawn strokes into clean geometric shapes like circles, squares, triangles, hearts, pentagons, and more. This can be toggled on/off with the 'A' key.
+  * **AI Gesture-Forced Shapes:** Use your **left hand** to make specific gestures (e.g., an "OK" sign for a circle) to pre-select a shape *before* you draw it, ensuring a perfect result.
+  * **AI Letter Recognition:** Toggle a special "Letter Mode" (`L` key) to recognize your hand-drawn letters (A-Z) and type them cleanly onto the canvas.
+  * **Intuitive Toolbar:** Select colors and brush sizes by hovering your right index finger over the UI elements while in `Standby` mode (open left hand).
+  * **Custom Gesture Training:** Includes a `train.py` script to train, save, and load your own custom hand gestures from scratch.
+  * **Canvas Controls:** Use keyboard shortcuts to **Clear** (`c`), **Save** (`s`), and **Quit** (`q`).
+  * **Dynamic UI:** Features a toggleable color palette, FPS counter, and a help guide for shape-forcing gestures (`G` key).
 
-- Now change current directory to the folder `cd Virtual-Painter`
+## 💻 Tech Stack
 
-- `pip install -r requirements.txt`
+  * **Python**
+  * **OpenCV:** For camera feed, UI windows, and image processing.
+  * **MediaPipe:** For real-time hand tracking and landmark detection.
+  * **NumPy:** For numerical operations on stroke data and landmark coordinates.
+  * **pickle:** For serializing and saving trained gesture data.
 
-- `python paint.py`
+## 🚀 Getting Started
 
-## Features
-
-- Can draw on your System screen based on your Index finger movement
-- Can track your hand in real-time
-- Change colour for your brush
-- Change your brush size
-- Save your beautiful creations by pressing `S`.
-- Clear for a fresh screen by pressing `C`.
-- Train for your own use case from scratch.
-
-## Working
-
-- This project is a use case of Hand Tracking technology.
-- As soon as the user shows up his hand in the camera the application detects it.
-- The left hand determines the `standby` or `drawing` mode.
-- To Select different color or eraser from the top of Canvas, User must select it by taking his Index finger at the top of icon. The same can also be selected using mouse click.
-
-## Note
-
-Feel free to file a new issue with a respective title and description on the AI-Virtual-Paint. If you already found a solution to your problem, I would love to review your pull request!
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/darthdaenerys/Virtual-Painter.git
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd Virtual-Painter
+    ```
+3.  Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+4.  Run the main application:
+    ```bash
+    python paint.py
+    ```
+5.  (Optional) To train your own gestures:
+    ```bash
+    python train.py
+    ```
