@@ -46,3 +46,18 @@ This is an application that enables one to vitually paint in the air using their
     ```bash
     python train.py
     ```
+## Snapshots
+<img width="1919" height="1079" alt="Screenshot 2025-11-21 105437" src="https://github.com/user-attachments/assets/ae63dd94-75db-4d19-a117-ab9b54874025" />
+
+<img width="1919" height="1079" alt="Screenshot 2025-11-21 105534" src="https://github.com/user-attachments/assets/9382610f-3861-4b6a-a09e-bd970e1abc60" />
+
+<img width="1920" height="1080" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/9f5449dc-6765-48da-9f81-14a557a3bd1c" />
+
+<img width="1920" height="1080" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/dc726a03-b03a-4f54-b678-e5b0c040f535" />
+
+<img width="1920" height="1080" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/4817de94-c53b-4538-a123-489275873f99" />
+
+<img width="1920" height="1080" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/b484d219-a2cf-465b-92b5-9f5740501923" />
+
+
+
